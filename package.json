@@ -1,0 +1,51 @@
+{
+  "name": "vue-markdown-editor",
+  "version": "0.1.0",
+  "description": "A Vue.js markdown editor",
+  "author": "Northwalker <northwalker28@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint",
+    "test": "vue-cli-service test:unit --coverage --no-cache",
+    "test:e2e": "vue-cli-service test:e2e",
+    "test:unit": "vue-cli-service test:unit"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/northwalker/vue-markdown-editor.git"
+  },
+  "keywords": [
+    "vue",
+    "vuejs",
+    "markdown",
+    "ediotr",
+    "markdown editor",
+    "vue markdown editor"
+  ],
+  "bugs": {
+    "url": "https://github.com/northwalker/vue-markdown-editor/issues"
+  },
+  "homepage": "https://github.com/northwalker/vue-markdown-editor#readme",
+  "dependencies": {
+    "vue": "^2.6.6"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^3.4.0",
+    "@vue/cli-plugin-e2e-cypress": "^3.4.0",
+    "@vue/cli-plugin-eslint": "^3.4.0",
+    "@vue/cli-plugin-unit-jest": "^3.4.0",
+    "@vue/cli-service": "^3.4.0",
+    "@vue/eslint-config-standard": "^4.0.0",
+    "@vue/test-utils": "^1.0.0-beta.20",
+    "babel-core": "7.0.0-bridge.0",
+    "babel-eslint": "^10.0.1",
+    "babel-jest": "^23.6.0",
+    "eslint": "^5.8.0",
+    "eslint-plugin-vue": "^5.0.0",
+    "node-sass": "^4.9.0",
+    "sass-loader": "^7.1.0",
+    "vue-template-compiler": "^2.5.21"
+  }
+}
