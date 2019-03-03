@@ -1,0 +1,23 @@
+/deep/ .CodeMirror {
+  z-index: 1;
+  height: auto;
+  min-height: 300px;
+  padding: 16px;
+  border-radius: 6px;
+  border: solid 1px #dddddd;
+  font-size: 20px;
+  line-height: 32px;
+  color: #505050;
+  //   outline: none;
+  //   resize: none;
+  //   overflow: auto;
+  &-placeholder {
+    color: #dddddd;
+  }
+}
+// overwrite default css
+/deep/ .CodeMirror-selected { background: #d9d9d9; }
+/deep/ .CodeMirror-focused .CodeMirror-selected { background: #ecf5ff; }
+/deep/ .CodeMirror-crosshair { cursor: crosshair; }
+/deep/ .CodeMirror-line::selection, .CodeMirror-line > span::selection, .CodeMirror-line > span > span::selection { background: #ecf5ff; }
+/deep/ .CodeMirror-line::-moz-selection, .CodeMirror-line > span::-moz-selection, .CodeMirror-line > span > span::-moz-selection { background: #ecf5ff; }

@@ -1,5 +1,7 @@
 # vue-markdown-editor
 
+[Demo](https://northwalker.github.io/vue-markdown-editor/)
+
 ## Project setup
 ```
 npm install
