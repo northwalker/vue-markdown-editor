@@ -23,7 +23,7 @@
               </div>
             </div>
           </a>
-          <!-- <a class="editor-icon-btn" @click="insertTable"><i class="material-icons">table_chart</i></a> -->
+          <a class="editor-icon-btn" @click="insertTable"><i class="material-icons">table_chart</i></a>
           <a class="editor-icon-btn" href="https://gist.github.com/85cb338e0685d78a86f3ac269b663363.git"
              target="_blank" rel="noopener noreferrer"><i class="material-icons">info</i></a>
 
@@ -239,7 +239,10 @@ export default {
       this.editor.focus()
     },
     insertTable () {
-      // TO DO
+      let selectedText = this.editor.getSelection()
+      const tableTemplate = `\n|   ${selectedText}   |         |      |\n|------|---------|------|\n|      |         |      |\n\n`
+      this.editor.replaceSelection(tableTemplate)
+      this.editor.focus()
     }
   }
 }

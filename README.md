@@ -1,7 +1,12 @@
 # vue-markdown-editor
+![GitHub package.json version](https://img.shields.io/github/package-json/v/northwalker/vue-markdown-editor.svg?color=informational)
+[![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
+![GitHub License](https://img.shields.io/github/license/northwalker/vue-markdown-editor.svg)
 
-[Demo](https://northwalker.github.io/vue-markdown-editor/)
+## Demo
+[Online Editor](https://northwalker.github.io/vue-markdown-editor/)
 
+----------------
 ## Project setup
 ```
 npm install
